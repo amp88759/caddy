@@ -1,6 +1,6 @@
 # tailscale-caddy-custom-domains
 
-This repo contains the supporting materials for a video on the Tailscale YouTube channel about using Caddy with custom domains in conjunction with Tailscale to provide secure remote access to self-hosted services.
+This repo contains the install script to setup Caddy with custom domains in conjunction with Tailscale to provide secure remote access to self-hosted services.
 We're going to use Tailscale and the reverse proxy Caddy to share self-hosted services on your Tailnet with friends family.
 
 ## Links
