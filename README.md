@@ -13,7 +13,11 @@ We're going to use Tailscale and the reverse proxy Caddy to share self-hosted se
 
 - Ensure there is a wildcard (*) CNAME record pointing at the FQDN of the container exposed on the tailnet
 - Ensure the Caddyfile is formatted with caddy fmt /etc/caddy/Caddyfile --overwrite
-- ```systemctl start caddy```
+- Start caddyserver with
+
+```
+systemctl start caddy
+```
 
 ## lsof -i :80 -s TCP:LISTEN
 
