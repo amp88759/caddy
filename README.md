@@ -21,7 +21,7 @@ systemctl start caddy
 ```
 
 The enable command only prepares the service for the next reboot. It will not launch the service in the current session or you can add the
-```--now flag``` to simultaneously enable the service to start at boot *and* start it immediately.
+```---now flag``` to simultaneously enable the service to start at boot *and* start it immediately.
 
 ```
 systemctl enable --now caddy
