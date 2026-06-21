@@ -20,5 +20,7 @@ We're going to use Tailscale and the reverse proxy Caddy to share self-hosted se
 This will check if anything else is listening on port 80
 If Apache 2 is running, disable it with
 
-'''systemctl disable --now apache2'''
+```
+systemctl disable --now apache2
+```
 
