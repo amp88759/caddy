@@ -1,0 +1,19 @@
+(cloudflare) {
+  tls {
+    dns cloudflare notArealToken-generateme
+	  resolvers 1.1.1.1
+  }
+}
+
+# jellyfin
+jellyfin.demo.andrewporter.uk {
+  reverse_proxy http://192.168.10.102:8096
+  import cloudflare
+}
+
+# wizarr
+wizarr.demo.andrewporter.uk {
+  reverse_proxy http://192.168.10.101:5690
+  import cloudflare
+}
+
