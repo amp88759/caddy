@@ -16,6 +16,7 @@ We're going to use Tailscale and the reverse proxy Caddy to share self-hosted se
 - Start caddyserver with
 
 ```
+systemctl enable caddy
 systemctl start caddy
 ```
 
