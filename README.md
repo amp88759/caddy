@@ -12,7 +12,7 @@ We're going to use Tailscale and the reverse proxy Caddy to share self-hosted se
 # Cloudflare Dashboard
 
 - Ensure there is a wildcard (*) CNAME record pointing at the FQDN of the container exposed on the tailnet
-- Ensure the Caddyfile is formatted with caddy fmt /etc/caddy/Caddyfile --overwrite
+- Ensure the Caddyfile is formatted with ```caddy fmt /etc/caddy/Caddyfile --overwrite```
 - Start caddyserver with
 
 ```
